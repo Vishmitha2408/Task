@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://task-backend-6o4e.onrender.com',
+  baseURL: 'https://task-back-fo2o.onrender.com',
 });
 
 api.interceptors.request.use((config) => {
